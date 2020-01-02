@@ -16,3 +16,10 @@ Simple project of Udemy "projects-in-mongod" course, which allows CRUD operation
 
 The app is based on node.js. To start the app go the `src` folder and type `npm start`. The app assumes that a mongodb instance is running on your localhost (bound to the default monodb port). You can test the differenct operations via tool like `RestEasy`, `Postman`, ...
 
+In mongodb you've to create a db and a collection via:
+
+```
+use catalog
+db.createCollection('products')
+
+```
