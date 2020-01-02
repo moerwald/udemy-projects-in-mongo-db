@@ -1,0 +1,18 @@
+db.products.insert({
+    name:'Amazon Fire Tablet',
+    category:'Electronics',
+    model: 'B00TSUGXKE',
+    price: 49.99,
+    image: 'https://images-na.ssl-images-amazon.com/images/I/61Agob8tdBL._AC_SL1000_.jpg',
+    details: 'Beautiful 7 inch display'
+})
+
+
+db.products.insert({
+    name:'Samsung Galaxy Tab4',
+    category:'Electronics',
+    model: 'SM-T230',
+    price: 149.99,
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81Fi3kofNyL._AC_SL1500_.jpg',
+    details: 'Beautiful 7 inch display'
+})
